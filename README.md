@@ -30,7 +30,7 @@ You can install the `parse_csv` gem by adding it to your project's `Gemfile` or 
 Add this line to your application's `Gemfile`:
 
 ```ruby
-gem 'parse_csv', '~> 0.1.0', github: 'git@github.com:westly1320/parse_csv.git'
+gem 'parse_csv', '~> 0.1.0', github: 'westly1320/parse_csv'
 ```
 
 Then execute:
