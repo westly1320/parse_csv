@@ -1,4 +1,11 @@
 module ParseCsv
   VERSION: String
   # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+  def self.match_row?: -> untyped
+
+  def self.query_csv: -> untyped
+
+  def self.symbolize_keys: -> untyped
+
+  def self.validate_inputs: -> untyped
 end

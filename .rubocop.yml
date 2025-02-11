@@ -1,0 +1,32 @@
+# .rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 3.0
+  Exclude:
+    - 'bin/**/*'
+    - 'vendor/**/*'
+    - 'spec/**/*'
+    - 'spec/**/*_spec.rb'
+
+  SuggestExtensions: false
+
+Gemspec/RequiredRubyVersion:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Layout/LineLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/HashTransformKeys:
+  Enabled: false
